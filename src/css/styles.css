@@ -9,6 +9,9 @@
 
 img {
     object-fit: contain;
+    display: flex;
+    width:  100%;
+    padding: 1em;
 }
 
 body {
@@ -121,8 +124,7 @@ h2 {
 
 footer {
     padding: 2em;
-    position: fixed;
-bottom: 0;
+    position: absolute;
 width: 100%;
     background-color: #a4c4c7;
 }
