@@ -47,7 +47,13 @@
             <h1>Moment 1 Frontend-utveckling</h1>
             <h2>Webbutvecklings-programmet Mittuniversitetet</h2>
             <p>Denna uppgift handlar om att automatisera utveckling av webbplatser genom att använda NodeJS och Parcel.
-            Denna webbplats är skapad med hjälp av HTML, CSS och Javascript. Webbplatsen skapas genom att installera Parcel via nodeJS. Parcel är ett NPM-paket som automatiserar processen; genom att använda Parcel har webbplatsen transpilerat och minifierat HTML, CSS och Javascript (). Parcel har även automatiskt optimerat bilder på webbplatsen till storlek 800, och ändrat bilder till passande modernt format som antingen webp eller avif. Webbplatsen har versionhanterats med ett repository i Git. En branch som kallades "dev" användes för utveckling, och "main" för publicering av färding webbplats. Webbplatsen publicerades via GitHub och Netflify. </p>
+                Denna webbplats är skapad med hjälp av HTML, CSS och Javascript. Webbplatsen skapas genom att installera
+                Parcel via nodeJS. Parcel är ett NPM-paket som automatiserar processen; genom att använda Parcel "run build" har
+                webbplatsen transpilerat och minifierat HTML, CSS och Javascript. Bakåtkompitabilitet har skapats genom att addera "browserlist": "> 0.5%, lst 2 versions, not dead" till package.json filen. Parcel har även automatiskt
+                optimerat bilder på webbplatsen till storlek 800, och ändrat bilder till passande modernt format som
+                antingen webp eller avif. Webbplatsen har versionhanterats med ett repository i Git. En branch som
+                kallades "dev" användes för utveckling, och "main" för publicering av färding webbplats. Webbplatsen
+                publicerades via GitHub och Netlify, genom build command "npm run build" och dist som publiceringsmapp. </p>
         </article>
         <!--footer-->
         <footer>
