@@ -20,6 +20,8 @@ body {
 
 p {
     font-size: 18px;
+    line-height: 1.5em;
+    padding-top: 2em;
     text-align: center;
     color: #2C363F;
 }
@@ -89,7 +91,7 @@ h2 {
     right: 0;
     top: 0;
     width: 50%;
-    background-color: #ffffff;
+    background-color: #a4c4c7;
     height: 100vh;
     display: none;
 }
@@ -99,7 +101,7 @@ h2 {
     list-style-type: none;
     text-align: center;
     line-height: 3em;
-    text-decoration: none;
+    text-decoration:underline;
 }
 
 .header_content {
@@ -116,7 +118,7 @@ h2 {
     display: flex;
     flex-direction: column;
     padding-top: 1em;
-    width: 100%;
+    width: 60%;
     margin: auto;
     align-items: center;
     margin-bottom: 5em;
@@ -128,6 +130,11 @@ footer {
 width: 100%;
     background-color: #a4c4c7;
 }
+a:hover {
+    color: #3d4d71;
+}
+
+
 @media (min-width: 600px) {
     header>picture img {
         width: 100%;
@@ -174,8 +181,5 @@ width: 100%;
         gap: 4em;
         justify-content: space-around;
     }
-
-    a:hover {
-        color: #15367e;
-    }
 }
+
